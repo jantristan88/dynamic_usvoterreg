@@ -15,7 +15,7 @@ function render() {
     		console.log("Got the data!");
     		console.log(data);
             let chart = document.querySelector(".Container-graph");
-            // chart.innerHTML = '';
+            chart.innerHTML = '';
             for (datum of data) {
                 let year = datum["Year"]; //grabs the year
                 let party = datum["Party"]; //grabs the party
@@ -37,28 +37,32 @@ function render() {
 
 function recordItem() {
     console.log('-------- recordItem');
+    fetch("./data/floridadata.json")
+        .then(data => data.json()) //converts file to json 
+        .then(data => {
 
     // Fetch the inputs from the page (and console.log for debugging)
-    let partySelect = document.querySelector('.dropdown-content');
-    let yearSelect = document.querySelector('.dropdown-content2');
-    console.log('Inputs:', partySelect, yearSelect);
+        let partySelect = document.querySelector('.dropdown-content');
+        let yearSelect = document.querySelector('.dropdown-content2');
+        console.log('Inputs:', partySelect, yearSelect);
 
-//     // Get the value of the inputs (and console.log for debugging)
-    let party = partySelect.value;
-    let year = yearSelect.value;
-    console.log('Values:', party, year);
+    //     // Get the value of the inputs (and console.log for debugging)
+        let party = partySelect.value;
+        let year = yearSelect.value;
+        console.log('Values:', party, year);
 
-    if (party === '') {
-        return; // End the function, prevent an empty input
-    }
+        if (party === '') {
+            return; // End the function, prevent an empty input
+        }
 
-    // Push the new info onto the array & rerender
-    let pair = [party, year];
-    data.push(pair);
-    render();
+        // Push the new info onto the array & rerender
+        let pair = [party, year];
+        data.push(pair);
+        render();
 
-    powerSelect.value = '';
-    yearSelect.value = '';
+        powerSelect.value = '';
+        yearSelect.value = '';
+    });
 }
 
 render();
