@@ -1,0 +1,182 @@
+[
+ {
+   "Year": 1972,
+   "Party": "Republican",
+   "Number": 974999
+ },
+ {
+   "Year": 1972,
+   "Party": "Democrat",
+   "Number": 2394604
+ },
+ {
+   "Year": 1972,
+   "Party": "Other",
+   "Number": 117855
+ },
+ {
+   "Year": 1976,
+   "Party": "Republican",
+   "Number": 1138751
+ },
+ {
+   "Year": 1976,
+   "Party": "Democrat",
+   "Number": 2750723
+ },
+ {
+   "Year": 1976,
+   "Party": "Other",
+   "Number": 204834
+ },
+ {
+   "Year": 1980,
+   "Party": "Republican",
+   "Number": 1429645
+ },
+ {
+   "Year": 1980,
+   "Party": "Democrat",
+   "Number": 3087427
+ },
+ {
+   "Year": 1980,
+   "Party": "Other",
+   "Number": 292649
+ },
+ {
+   "Year": 1984,
+   "Party": "Republican",
+   "Number": 1895937
+ },
+ {
+   "Year": 1984,
+   "Party": "Democrat",
+   "Number": 3313073
+ },
+ {
+   "Year": 1984,
+   "Party": "Other",
+   "Number": 365462
+ },
+ {
+   "Year": 1988,
+   "Party": "Republican",
+   "Number": 2360434
+ },
+ {
+   "Year": 1988,
+   "Party": "Democrat",
+   "Number": 3264105
+ },
+ {
+   "Year": 1988,
+   "Party": "Other",
+   "Number": 422808
+ },
+ {
+   "Year": 1992,
+   "Party": "Republican",
+   "Number": 2672968
+ },
+ {
+   "Year": 1992,
+   "Party": "Democrat",
+   "Number": 3318565
+ },
+ {
+   "Year": 1992,
+   "Party": "Other",
+   "Number": 550292
+ },
+ {
+   "Year": 1996,
+   "Party": "Republican",
+   "Number": 3344036
+ },
+ {
+   "Year": 1996,
+   "Party": "Democrat",
+   "Number": 3774809
+ },
+ {
+   "Year": 1996,
+   "Party": "Other",
+   "Number": 1077812
+ },
+ {
+   "Year": 2000,
+   "Party": "Republican",
+   "Number": 3474438
+ },
+ {
+   "Year": 2000,
+   "Party": "Democrat",
+   "Number": 3853524
+ },
+ {
+   "Year": 2000,
+   "Party": "Other",
+   "Number": 1552434
+ },
+ {
+   "Year": 2004,
+   "Party": "Republican",
+   "Number": 3954492
+ },
+ {
+   "Year": 2004,
+   "Party": "Democrat",
+   "Number": 4322376
+ },
+ {
+   "Year": 2004,
+   "Party": "Other",
+   "Number": 2199569
+ },
+ {
+   "Year": 2008,
+   "Party": "Republican",
+   "Number": 4106743
+ },
+ {
+   "Year": 2008,
+   "Party": "Democrat",
+   "Number": 4800890
+ },
+ {
+   "Year": 2008,
+   "Party": "Other",
+   "Number": 2504290
+ },
+ {
+   "Year": 2012,
+   "Party": "Republican",
+   "Number": 4263587
+ },
+ {
+   "Year": 2012,
+   "Party": "Democrat",
+   "Number": 4821859
+ },
+ {
+   "Year": 2012,
+   "Party": "Other",
+   "Number": 2953125
+ },
+ {
+   "Year": 2016,
+   "Party": "Republican",
+   "Number": 4575277
+ },
+ {
+   "Year": 2016,
+   "Party": "Democrat",
+   "Number": 4905705
+ },
+ {
+   "Year": 2016,
+   "Party": "Other",
+   "Number": 3478203
+ }
+]
