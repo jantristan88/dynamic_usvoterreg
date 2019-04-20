@@ -35,33 +35,31 @@ function render() {
     	});
 }
 
-// function recordItem() {
-//     console.log('-------- recordItem');
+function recordItem() {
+    console.log('-------- recordItem');
 
-//     // Fetch the inputs from the page (and console.log for debugging)
-//     let partySelect = document.querySelector('.dropdown-content');
-//     let yearSelect = document.querySelector('.dropdown-content2');
-//     console.log('Inputs:', partySelect, yearSelect);
+    // Fetch the inputs from the page (and console.log for debugging)
+    let partySelect = document.querySelector('.dropdown-content');
+    let yearSelect = document.querySelector('.dropdown-content2');
+    console.log('Inputs:', partySelect, yearSelect);
 
-// //     // Get the value of the inputs (and console.log for debugging)
-//     let party = partySelect.value;
-//     let year = yearSelect.value;
-//     console.log('Values:', party, year);
+//     // Get the value of the inputs (and console.log for debugging)
+    let party = partySelect.value;
+    let year = yearSelect.value;
+    console.log('Values:', party, year);
 
-//     // Challenge 4:
-//     if (name === '') {
-//         return; // End the function, prevent an empty input
-//     }
+    if (party === '') {
+        return; // End the function, prevent an empty input
+    }
 
-//     // Push the new info onto the array & rerender
-//     let pair = [powerLevel, name];
-//     powerLevels.push(pair);
-//     render();
+    // Push the new info onto the array & rerender
+    let pair = [party, year];
+    data.push(pair);
+    render();
 
-//     // Challenge 4:
-//     powerInput.value = '';
-//     nameInput.value = '';
-// }
+    powerSelect.value = '';
+    yearSelect.value = '';
+}
 
 render();
 
