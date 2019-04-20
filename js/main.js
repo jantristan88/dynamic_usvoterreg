@@ -15,7 +15,7 @@ function render() {
     		console.log("Got the data!");
     		console.log(data);
             let chart = document.querySelector(".Container-graph");
-            chart.innerHTML = '';
+            // chart.innerHTML = '';
             for (datum of data) {
                 let year = datum["Year"]; //grabs the year
                 let party = datum["Party"]; //grabs the party
@@ -60,7 +60,7 @@ function recordItem() {
         data.push(pair);
         render();
 
-        powerSelect.value = '';
+        partySelect.value = '';
         yearSelect.value = '';
     });
 }
