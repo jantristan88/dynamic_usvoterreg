@@ -100,16 +100,16 @@ body {
     grid-column:3;
 }
 
-.bar:nth-child(n+1) {
+.bar:nth-child(3n-2) {
 
     background-color: var(--bgr);
 }
 
-.bar:nth-child(2n+1) {
+.bar:nth-child(3n-1) {
     background-color: var(--bgd);
 }
 
-.bar:nth-child(3n+1) {
+.bar:nth-child(3n) {
     background-color: var(--bgo);
 }
 
